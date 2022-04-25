@@ -1,7 +1,11 @@
 # Player de Música
 
 # Sobre
- Projeto Player de Música
+ Projeto de Player de Música desenvolvido por mim utilizando HTML, CSS e Javascript. O objetivo do projeto foi de recriar um player
+ de música com as funcionalidade de iniciar e pausar a música, selecionar a próxima música ou a música anterior por meio de botões e
+ conseguir observar a duração dela.
+ 
+ Acesse o site [aqui.](https://player-da-fer.netlify.app/)
  
  # Player de Música
  
