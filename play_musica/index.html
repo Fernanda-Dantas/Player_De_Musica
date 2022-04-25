@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Player de Música</title>
+</head>
+<body>
+  <div class="player">
+    <img src="imagens/rock.jpg" alt="Rock">
+    <div class="descricao">
+      <h2>Nome da música</h2>
+      <i>Nome do artista</i>
+    </div>
+    <div class="duracao">
+      <div class="barra">
+        <progress value="0" max="1"></progress>
+        <div class="ponto"></div>
+      </div>
+      <div class="tempo">
+        <p class="inicio">0:00</p>
+        <p class="fim">0:00</p>
+      </div>
+    </div>
+    <div class="botoes">
+      <i class="fa-solid fa-backward-step setas voltar"></i>
+      <i class="fa-solid fa-play botao-play"></i>
+      <i class="fa-solid fa-pause botao-pause"></i>
+      <i class="fa-solid fa-forward-step setas proxima"></i>
+    </div>
+
+  </div>
+ 
+  <audio src="./musicas/We Ride! - Reed Mathis.mp3"></audio> 
+  <script src="comandos.js"></script>
+</body>
+</html>
